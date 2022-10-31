@@ -5,8 +5,7 @@ import { signInWithEmailAndPassword } from "firebase/auth";
 import { validateEmail } from '../utils/validations'
 import Toast from 'react-native-toast-message';
 
-export default function LoginForm(props) {
-    const {changeForm} = props;
+export default function LoginForm() {
     const [formData, setFormData] = useState(defaulValue());
     const [formError, setFormError] = useState({});
 
@@ -76,12 +75,6 @@ export default function LoginForm(props) {
      <TouchableOpacity onPress={login}>
                 <Text style={styles.btnText}>Iniciar sección</Text>
       </TouchableOpacity>
-      
-      <View style={styles.login}>
-        <TouchableOpacity onPress={changeForm}>
-                    <Text style={styles.btnText}>Registrate</Text>
-        </TouchableOpacity>
-      </View>
     </>
   )
 }
