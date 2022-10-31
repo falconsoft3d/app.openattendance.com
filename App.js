@@ -5,6 +5,7 @@ import { auth } from './src/utils/firebase/firebaseConfig';
 import { getAuth, onAuthStateChanged } from "firebase/auth";
 import Auth from './src/components/Auth';
 import Toast from 'react-native-toast-message';
+import { COLOR } from './src/styles/color';
 
 const App = () => {
   const [user, setUser] = useState(undefined);
@@ -33,7 +34,7 @@ export default App
 
 const styles = StyleSheet.create({ 
   background : {
-       backgroundColor: '#15212b',
+       backgroundColor: COLOR.white,
        height: '100%'
   }
 });
