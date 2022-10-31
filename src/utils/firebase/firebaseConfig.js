@@ -3,18 +3,18 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
-import Config from "react-native-config";
+import {APIKEY, AUTHDOMAIN, PROJECTID, STORAGEBUCKET,MESSAGINGSENDERID,APPID, MEASUREMENTID} from "@env"
 
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: Config.APIKEY,
-  authDomain: Config.AUTHDOMAIN,
-  projectId: Config.PROJECTID,
-  storageBucket: Config.STORAGEBUCKET,
-  messagingSenderId: Config.MESSAGINGSENDERID,
-  appId: Config.APPID,
-  measurementId: Config.MEASUREMENTID
+  apiKey: APIKEY,
+  authDomain: AUTHDOMAIN,
+  projectId: PROJECTID,
+  storageBucket: STORAGEBUCKET,
+  messagingSenderId: MESSAGINGSENDERID,
+  appId: APPID,
+  measurementId: MEASUREMENTID
 };
 
 
