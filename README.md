@@ -2,7 +2,9 @@
 # Which is what i hope it will do
 It is an open source solution to implement attendance control with the web and with the mobile phone
 
-![Alt text](https://github.com/falconsoft3d/app.openattendance.com/blob/main/assets/Captura%20de%20Pantalla%202022-11-01%20a%20las%201.35.56.png?raw=true "OpenAttendance")
+![Alt text](https://github.com/falconsoft3d/app.openattendance.com/blob/main/assets/Captura%20de%20Pantalla%202022-11-01%20a%20las%201.35.56.png?raw=true "OpenAttendance1")
+
+![Alt text](https://github.com/falconsoft3d/app.openattendance.com/blob/main/assets/Captura%20de%20Pantalla%202022-11-01%20a%20las%201.36.42.png?raw=true "OpenAttendance2")
 
 # Branches
 - Main: It is the front web with the api using Next JS
