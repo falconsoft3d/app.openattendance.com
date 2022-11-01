@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "app.openattendance.com",
-    "slug": "app.openattendance.com",
+    "name": "openattendance",
+    "slug": "openattendance",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -24,7 +24,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.mfalconsoft.app.openattendance.com"
     },
     "web": {
       "favicon": "./assets/favicon.png"

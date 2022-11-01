@@ -3,4 +3,6 @@ export const SPANISH = {
     password: 'Contraseña',
     login : 'Iniciar sección',
     server: 'Servidor',
+    in: 'Dentro',
+    out: 'Fuera',
 };

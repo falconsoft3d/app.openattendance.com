@@ -19,13 +19,18 @@ export default function LoginForm() {
             Toast.show({
                 type: 'success',
                 text1: 'Hola',
-                text2: 'Te has logiado correctamente 👋'
+                text2: 'You have successfully logged in 👋'
               });
           })
           .catch((error) => {
             const errorCode = error.code;
             const errorMessage = error.message;
             console.log(errorCode, errorMessage);
+              Toast.show({
+                type: 'error',
+                text1: 'Error',
+                text2: 'The email or password is incorrect'
+              });
           });
       }
 
@@ -44,7 +49,6 @@ export default function LoginForm() {
         
         else if (formData.password.length < 6) { 
             errors.password = true;
-            errors.repeatPassword = true;
             console.log("Su contraseña es menor a 6 caracteres");
         } else {
             loginFirebase(formData.email, formData.password);
@@ -52,6 +56,23 @@ export default function LoginForm() {
         }
         setFormError(errors);
         console.log(errors);
+        
+        if (errors.password) {
+            Toast.show({
+                type: 'error',
+                text1: 'Error',
+                text2: 'Your password is less than 6 characters'
+              });
+        }
+
+        if (errors.email) {
+          Toast.show({
+              type: 'error',
+              text1: 'Error',
+              text2: 'Wrong email'
+            });
+      }
+
       } 
 
     return (
