@@ -2,6 +2,8 @@
 # Which is what i hope it will do
 It is an open source solution to implement attendance control with the web and with the mobile phone
 
+![Alt text](https://github.com/falconsoft3d/pyerp/blob/master/marketing/pyerp-m.png?raw=true "Ynext")
+
 # Branches
 - Main: It is the front web with the api using Next JS
 
