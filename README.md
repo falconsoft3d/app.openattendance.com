@@ -10,6 +10,9 @@ https://www.figma.com/file/7KkMAKfIKoWKtBYkNaNtJo/Untitled?node-id=0%3A1
 
 ![Alt text](https://github.com/falconsoft3d/app.openattendance.com/blob/main/assets/Captura%20de%20Pantalla%202022-11-01%20a%20las%201.36.42.png?raw=true "OpenAttendance2")
 
+![Alt text](https://github.com/falconsoft3d/app.openattendance.com/blob/main/assets/OpenAttendanceDiagram.png?raw=true "OpenAttendance3")
+
+
 # Branches
 - Main: It is the front web with the api using Next JS
 
